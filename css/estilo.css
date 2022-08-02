@@ -239,6 +239,11 @@ body::-webkit-scrollbar-track {
     .movilfooterCon{
         flex-wrap: wrap !important;
     }
+    .agregar-imagen{
+        max-width: 90% !important;
+        height: auto !important;
+        /* max-height: 100% !important; */
+    }
     
     
     /* .nav-menu-item{
@@ -568,8 +573,7 @@ video{
     object-fit: cover;
     margin-top: 66px;
     width: auto;
-    height: 85%;
-    max-height: 85%;
+    max-height: 85% !important;
     border-radius: 15px;
     transform: scale(0);
     transition: transform .2s;
